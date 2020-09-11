@@ -16,6 +16,7 @@
     <tbody>
       @foreach($users as $user)
       <tr>
+	  My Commnet addeded by yogesh
         @if( $user->image != '' )
         <td><img src='{{ asset("uploads/$user->image") }}' ></td>
         @else
