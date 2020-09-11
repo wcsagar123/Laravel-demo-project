@@ -20,7 +20,7 @@
         @if( $user->image != '' )
         <td><img src='{{ asset("uploads/$user->image") }}' ></td>
         @else
-        <td>No Image sagar savani</td>
+        <td>No Image sagar savani 1234567890</td>
         @endif 
         <td>{{$user->name}}</td>
         <td>{{$user->email}}</td>
