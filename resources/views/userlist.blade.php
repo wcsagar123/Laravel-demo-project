@@ -16,11 +16,10 @@
     <tbody>
       @foreach($users as $user)
       <tr>
-	  My Commnet addeded by yogesh
         @if( $user->image != '' )
         <td><img src='{{ asset("uploads/$user->image") }}' ></td>
         @else
-        <td>No Image Sagar sssssssssssssss</td>
+        <td>No Image Sagar</td>542284
         @endif 
         <td>{{$user->name}}</td>
         <td>{{$user->email}}</td>
